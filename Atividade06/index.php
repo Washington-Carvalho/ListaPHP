@@ -8,7 +8,7 @@
 <body>
     <form action="index.php" method="post">
             <pre>
-                <label for="">Digite um valor R$:</label>
+                <label for="">Digite um valor US$:</label>
                 <input type="text" name="dolar" id="">
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
