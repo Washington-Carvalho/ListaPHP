@@ -6,7 +6,7 @@
     <title>Atividade02</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="soma.php" method="post">
             <pre>
                 <label for="">Digite um numero!</label>
                 <input type="text" name="n1" id="">
@@ -16,15 +16,6 @@
                 <input type="reset" value="Limpar">
             </pre>
 
-            <?php
-     
-             $n1 = $_POST["n1"];
-             $n2 = $_POST["n2"];
-             $r = $n1 + $n2;
-
-                echo "<br>";
-                echo"A soma de ".$n1. " + " .$n2."= " .$r;
-            ?>
     </form>
 </body>
 </html>
