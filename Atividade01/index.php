@@ -6,7 +6,7 @@
     <title>Atividade01</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="Exibenome.php" method="post">
             <pre>
                 <label for="">Digite seu nome!</label>
                 <input type="text" name="nome" id="">
@@ -14,14 +14,7 @@
                 <input type="reset" value="Limpar">
             </pre>
 
-            <?php
-                $nome = "";
-     
-                $nome = $_POST["nome"];
-
-                echo "<br>";
-                echo"Olá, ".$nome." Boa noite!";
-            ?>
+           
     </form>
 </body>
 </html>
