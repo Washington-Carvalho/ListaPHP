@@ -6,7 +6,7 @@
     <title>Atividade03</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="media.php" method="post">
             <pre>
                 <label for="">Digite sua Nota!</label>
                 <input type="text" name="n1" id="">
@@ -17,24 +17,6 @@
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
             </pre>
-
-            <?php
-     
-                $n1 = $_POST["n1"];
-                $n2 = $_POST["n2"];
-                $n3 = $_POST["n3"];
-                $m = ($n1 + $n2 + $n3)/3;
-
-                echo "<br>";
-                echo "A média das suas nota".$n1.", ".$n2.", ".$n3." é de =";
-                echo "<br> Média = ".$m;
-
-                if($m>=7){
-                    echo"<br> Parabén você foi aprovado!";
-                }else{
-                    echo"<br> Estude mais!";
-                }
-            ?>
     </form>
 </body>
 </html>
