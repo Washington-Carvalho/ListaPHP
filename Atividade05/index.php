@@ -6,7 +6,7 @@
     <title>Atividade05</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="dobro.php" method="post">
             <pre>
                 <label for="">Digite um numero</label>
                 <input type="text" name="n1" id="">
@@ -14,14 +14,7 @@
                 <input type="reset" value="Limpar">
             </pre>
 
-            <?php
-     
-                $n1 = $_POST["n1"];
-                $d = $n1 * 2;
-
-                echo "<br>";
-                echo "O dobro de " .$n1. " é " .$d;
-            ?>
+            
     </form>
 </body>
 </html>
