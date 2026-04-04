@@ -4,8 +4,8 @@
         return $f;   
         }
               
-    function exibir($valor){
-    echo "<br>";
-    echo "<h1> O valor em Fahrenheit é  " .$valor. " ° F </h1>";
+    function exibir($valor,$valor2){
+    echo "<h1>O valor " .$valor2. " C° convertido</h1>";
+    echo "<h1>  Em Fahrenheit é  " .$valor. " ° F </h1>";
     }
 ?>
