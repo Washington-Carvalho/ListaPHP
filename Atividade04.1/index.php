@@ -6,8 +6,7 @@
     <title>Atividade04</title>
 </head>
 <body>
-    <?php include 'form_celsius.php';
-    ?>
+    <?php include 'form_celsius.php';?>
 </body>
 </html>
 

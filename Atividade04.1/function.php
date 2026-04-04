@@ -1,14 +1,11 @@
 <?php
     function converter($c){
         $f = $c *9/5 + 32;
-        return $f;
-        exibir($f);   
+        return $f;   
         }
               
-    function exibir($c,$f){
+    function exibir($valor){
     echo "<br>";
-    echo "<h1>A temperatura digitada em C° " .$c."</h1>";
-    echo "<br>";
-    echo "<h1>Em Fahrenheit são = " .$f. " ° F </h1>";
+    echo "<h1> O valor em Fahrenheit é  " .$valor. " ° F </h1>";
     }
 ?>
